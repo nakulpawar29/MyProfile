@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index Page</title>
+     <!-- CDN Link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+     <style>
+         *{
+            font-family: 'Roboto', sans-serif;
+        }
+        /* body{
+            margin-top: 0;
+        } */
+        header{
+            background-color: cadetblue;
+            border: 0px solid;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        span{
+           color: rgb(255, 255, 255); 
+        }
+        #username, #mobile{
+            margin-right: 20px;
+        }
+        #nav{
+            font-size: small;
+            margin-right: 10px;
+            border: 1px solid black;
+            border-radius: 20px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: white;
+            color: black;
+        }
+        #nav:hover{
+            background-color: black;
+            color: white;
+        }
+        a{
+            text-transform: uppercase;
+            
+        }
+        #follow{
+            color: black;
+            margin-right: 10px;
+        }
+        #linkedinlogo{
+            margin-right: 10px;
+            color: dodgerblue;
+        }
+        #googlelogo{
+            margin-right: 10px;
+            color: crimson;
+        }
+        #instalogo{
+            margin-right: 10px;
+            color: darkorchid;
+        }
+        #facebooklogo{
+            margin-right: 10px;
+            color: blue;
+        }
+     </style>
+</head>
+<body>
+    <header>
+        <i class="fa fa-user" aria-hidden="true"></i>  
+        <span id="username">Nakul Pawar</span> 
+
+        <i class="fa fa-phone-square" aria-hidden="true"></i>
+        <span id="mobile">9890952253</span> 
+
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <span>nakulpawar29@gmail.com</span> 
+    </header><br>
+    <nav>
+        <a href="home.html" target="frame" id="nav">Home</a>
+        <a href="techStack.html" target="frame" id="nav">Technology Stack</a>
+        <a href="education.html" target="frame" id="nav">Education</a>
+        <a href="project.html" target="frame" id="nav">Project</a>
+        <a href="personal.html" target="frame" id="nav">Personal</a>
+        <a href="hobbies.html" target="frame" id="nav">Hobbies</a>
+        <a href="contactUs.html" target="frame" id="nav">Contact Me</a>
+    </nav>
+    <br>
+    <iframe width="900px" height="500px" name="frame" src="home.html"> 
+
+    </iframe><br>
+    <span id="follow">Follow Me</span>
+    <i id="linkedinlogo" class="fa fa-linkedin" aria-hidden="true"></i>
+    <i id="googlelogo" class="fa fa-google" aria-hidden="true"></i>
+    <i id="instalogo" class="fa fa-instagram" aria-hidden="true"></i>
+    <i id="facebooklogo" class="fa fa-facebook-official" aria-hidden="true"></i>
+</body>
+</html>
